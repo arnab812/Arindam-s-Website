@@ -14,6 +14,7 @@ df = pd.DataFrame(data)
 
 # Display the table in Streamlit
 st.title("Arindam")
+st.write(Employee Info)
 st.table(df)
 
 # Add hyperlinks using HTML
